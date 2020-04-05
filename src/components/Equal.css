@@ -1,0 +1,13 @@
+.equal {
+  height: 70px;
+  width: 340px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  background-color: #40BBD6;
+  color: white;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: 3em;
+}

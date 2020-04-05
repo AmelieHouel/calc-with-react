@@ -1,0 +1,13 @@
+.clear {
+  height: 70px;
+  width: 70px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #F44B4B;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: 2em;
+  color: #F44B4B;
+  margin-right: 20px;
+}
