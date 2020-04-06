@@ -14,7 +14,7 @@ class App extends Component {
     super(props);
 
     this.state = {
-      input: "",
+      input: ""
     }
 
   }
@@ -24,7 +24,7 @@ class App extends Component {
   };
 
   handleEqual = () => {
-    this.setState({ input: math.evaluate(this.state.input )});
+    this.setState({ input: math.evaluate(this.state.input) });
   };
 
   
@@ -32,7 +32,7 @@ class App extends Component {
     return (
       <div className="app">
         <div className="container">
-          <Input input={this.state.input}></Input>
+          <Input input={this.state.input} />
           <div className="line">
             <Button handleClick={this.addToInput}>7</Button>
             <Button handleClick={this.addToInput}>8</Button>
@@ -65,26 +65,5 @@ class App extends Component {
     );
   }
 }
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
 
 export default App;
