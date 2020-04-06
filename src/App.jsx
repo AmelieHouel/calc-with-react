@@ -1,3 +1,4 @@
+import * as math from "mathjs";
 import React, { Component } from 'react';
 import './App.css';
 import { Button } from './components/Button';
@@ -5,7 +6,7 @@ import { Operator } from './components/Operator';
 import { Equal } from './components/Equal';
 import { Input } from './components/Input';
 import { ClearButton } from './components/ClearButton';
-import * as math from "mathjs";
+
 
 
 class App extends Component {
@@ -43,7 +44,7 @@ class App extends Component {
             <Button handleClick={this.addToInput}>4</Button>
             <Button handleClick={this.addToInput}>5</Button>
             <Button handleClick={this.addToInput}>6</Button>
-            <Operator handleClick={this.addToInput}>x</Operator>
+            <Operator handleClick={this.addToInput}>*</Operator>
           </div>
           <div className="line">
             <Button handleClick={this.addToInput}>1</Button>
